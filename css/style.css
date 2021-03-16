@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: 30px solid rgb(241, 151, 151);  
+}
+
+
+h1{
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+    color: rgb(253, 54, 54);
+    text-decoration: underline;
+    font-size: 48pt;
+}
+
+h2{
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+    color: rgb(253, 54, 54);
+    text-decoration: underline;
+    font-size: 32pt;
+}
+
+h3{
+    font-family: 'Yusei Magic', sans-serif;
+    padding: 20px 0 20px 20px;
+    text-align: left;
+    color: rgb(253, 54, 54);
+    text-decoration: underline;
+    font-size: 24pt;
+}
+
+.header{
+    background: linear-gradient(rgb(241, 151, 151), #F9F9F9);
+    width: 100%;
+    height: 80px;
+    border-style: hidden;
+    background-size: cover;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.logo{
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    top: 35px;
+    left: 100px;
+}
+
+#open{
+    width: 12px;
+    height: 18px;
+    float: right;
+    padding: 12px 16px;
+    display: none;
+}
+
+#close{
+    width: 12px;
+    height: 18px;
+    float: right;
+    padding: 15px 16px;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.menu{
+    list-style: none;
+    top: 26px;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 15pt;
+    color: #060A24;
+    word-spacing: 40px;
+    line-height: 28px;
+    text-align: right;
+    float: right;
+    padding: 26px;
+}
+
+.opcion{
+    max-width: 30px;
+    color: rgb(253, 54, 54);
+    text-decoration: none;
+}
+
+.opcion:hover{
+    font-size: 18pt;
+}
+
+.presentacion{
+    display: block; 
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.presentacion:hover{
+    border-radius: 0;
+    border: 10px solid rgb(241, 151, 151);
+}
+
+.desayunoImg{
+    width: 170pt;
+    height: 120pt;
+    border-radius: 100%;
+    border: 5px solid rgb(241, 151, 151);
+}
+
+.desayunoImg:hover{
+    border-radius: 0;
+}
+
+.itemDesayuno{
+    font-family: 'Yusei Magic', sans-serif;
+    padding: 20px 0 20px 20px;
+    color: rgb(253, 54, 54);
+    font-size: 18pt;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 584px);
+    grid-template-rows: repeat(2, 332px);
+    justify-content: center;
+
+}
+
+.serviceContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 584px);
+    grid-template-rows: repeat(3, 332px);
+    justify-content: center;
+}
+
+footer{
+    margin-top: 20px;
+    width: auto;
+    height: 200px;
+    background: #959595;
+}
+
+.contactForm{
+    margin: 30px 30px 20px 30px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(241, 151, 151);
+    border-radius: 5%;
+    width: 400px;
+    height: 600px;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+@media (max-width: 576px){
+    .logo{
+        left: 50px;
+        width: 84px;
+        height: 84px;
+    }
+    .gridContainer{
+        grid-template-columns: repeat(1, 292px);
+        grid-template-rows: repeat(4, 402px);
+    }
+    .itemDesayuno{
+        display: inline-block;
+        margin: 20px 0px 30px 0px;
+    }
+    .contactForm{
+        height: 450px;
+    }
+    /*.menu{
+        top: 0px;
+        position: fixed;
+        width: 90%;
+        height: 164px;
+        background: linear-gradient(rgb(253, 117, 117), rgb(241, 151, 151));
+        color: #FFFFFF;
+        padding: 12px;
+        text-align: right;
+        right: 5%;
+        transition: all .5s;
+    }
+    .header label{
+        display: block;
+    }
+    .header label #open{
+        width: 24px;
+        height: 36px;
+        padding: 19px 16px;
+        display: block;
+    }
+    #check:checked ~ a{
+        right: 0;
+    }
+    #check:checked ~ label #open{
+        display: none;
+    }
+    #check:checked ~ label #close{
+        display: block;
+    }*/
+}
+

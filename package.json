@@ -1,0 +1,22 @@
+{
+  "name": "gabycook",
+  "version": "1.0.0",
+  "description": "cook web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "rama",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
