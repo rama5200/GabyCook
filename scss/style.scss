@@ -1,15 +1,15 @@
-@import "variables";
-
 *{
     margin: 0;
     padding: 0;
 }
 
+@import "variables";
+@import "footer";
+@import "header";
+
 body{
     border: 30px solid $rosa-claro;  
 }
-
-@import "header";
 
 #open{
     width: 12px;
@@ -42,6 +42,7 @@ body{
     text-align: right;
     float: right;
     padding: 26px;
+    text-transform: uppercase;
 }
 
 .opcion{
@@ -101,12 +102,7 @@ body{
     justify-content: center;
 }
 
-footer{
-    margin-top: 20px;
-    width: auto;
-    height: 200px;
-    background: #959595;
-}
+
 
 .contactForm{
     margin: 30px 30px 20px 30px;
@@ -115,16 +111,6 @@ footer{
     border-radius: 5%;
     width: 400px;
     height: 600px;
-}
-
-footer{
-    ul{
-        li{
-            a{
-                text-decoration: none;
-            }
-        }
-    }
 }
 
 @media (max-width: 576px){

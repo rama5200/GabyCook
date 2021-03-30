@@ -2,8 +2,22 @@
   margin: 0;
   padding: 0; }
 
-body {
-  border: 30px solid #f19797; }
+footer {
+  margin-top: 20px;
+  width: auto;
+  height: 200px;
+  background: #959595; }
+
+footer ul li a {
+  text-decoration: none; }
+
+.nav-list li a {
+  color: white;
+  text-decoration: none; }
+
+div dl dd a {
+  color: white;
+  text-decoration: none; }
 
 h1 {
   font-family: 'Yusei Magic', sans-serif;
@@ -43,6 +57,9 @@ h3 {
   top: 35px;
   left: 100px; }
 
+body {
+  border: 30px solid #f19797; }
+
 #open {
   width: 12px;
   height: 18px;
@@ -70,7 +87,8 @@ h3 {
   line-height: 28px;
   text-align: right;
   float: right;
-  padding: 26px; }
+  padding: 26px;
+  text-transform: uppercase; }
 
 .opcion {
   max-width: 30px;
@@ -119,12 +137,6 @@ h3 {
   grid-template-rows: repeat(3, 332px);
   justify-content: center; }
 
-footer {
-  margin-top: 20px;
-  width: auto;
-  height: 200px;
-  background: #959595; }
-
 .contactForm {
   margin: 30px 30px 20px 30px;
   padding: 10px 30px 10px 30px;
@@ -132,9 +144,6 @@ footer {
   border-radius: 5%;
   width: 400px;
   height: 600px; }
-
-footer ul li a {
-  text-decoration: none; }
 
 @media (max-width: 576px) {
   .logo {
