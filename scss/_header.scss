@@ -1,0 +1,45 @@
+$default-color: linear-gradient(#f19797, #F9F9F9);
+@import "variables";
+
+h1{
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+    color: $rosa-fuerte;
+    text-decoration: underline;
+    font-size: 48pt;
+}
+
+h2{
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+    color: $rosa-fuerte;
+    text-decoration: underline;
+    font-size: 32pt;
+}
+
+h3{
+    font-family: 'Yusei Magic', sans-serif;
+    padding: 20px 0 20px 20px;
+    text-align: left;
+    color: $rosa-fuerte;
+    text-decoration: underline;
+    font-size: 24pt;
+}
+
+.header{
+    background: $default-color;
+    width: 100%;
+    height: 80px;
+    border-style: hidden;
+    background-size: cover;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.logo{
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    top: 35px;
+    left: 100px;
+}

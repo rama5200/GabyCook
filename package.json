@@ -4,6 +4,8 @@
   "description": "cook web page",
   "main": "index.js",
   "scripts": {
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "test": "test"
   },
   "repository": {
